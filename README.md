@@ -1,39 +1,23 @@
-# interviews
+#  Job interviews App
 
-This template should help get you started developing with Vue 3 in Vite.
+Stack:
 
-## Recommended IDE Setup
+- сборщик - vite
+- фреймворк - vue 3 (composition api)
+- язык - typescript
+- стейт менеджер - pinia
+- библиотеки компонентов и стилей - primevue/primeflex/primeicons
+- авторизация и база данных - firebase
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Type Support for `.vue` Imports in TS
+### Build the app
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
+```shell
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Start the app
 
-```sh
-npm run lint
+```shell
+npm start
 ```
