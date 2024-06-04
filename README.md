@@ -9,15 +9,8 @@ Stack:
 - библиотеки компонентов и стилей - primevue/primeflex/primeicons
 - авторизация и база данных - firebase
 
-
-### Build the app
-
-```shell
-npm run build
-```
-
 ### Start the app
 
 ```shell
-npm start
+npm run dev
 ```
